@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(242, 242, 242,0.75); /* Set the color of the thumb */
+    border-radius: 10px; /* Add rounded corners to the thumb */
+}
+
+        .nav-link > a {
+            color: rgba(242, 242, 242,0.75);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(242, 242, 242,0.75);
+            scroll-behavior: smooth;
+            transition: font-size 0.15s;
+        }
+
+        .nav-link > a:hover {
+            font-size: 1.2em;
+            color: rgba(242, 242, 242,0.95);
+        }
+
+        .nav-link {
+            margin: 8px 0;
+        }
+
+        .section-heading {
+            color: rgba(242, 242, 242,0.8);
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(242, 242, 242,0.75);
+            width: fit-content;
+        }
+
+        .section-content {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            color: rgba(242, 242, 242,0.75);
+        }
+
+        .project-container {
+            display: flex;
+            flex-direction: row;
+            margin: 8px 8px 8px 0;
+            padding: 5px;
+        }
+
+        .education-container {
+            display: flex;
+            flex-direction: column;
+            margin: 8px 0;
+            padding: 5px;
+        }
+
+        .project-image {
+            border: 1px solid red;
+            width: 6em;
+            border-radius: 8px;
+        }
+
+        .contact-link > a{
+            text-decoration: none;
+            color: rgba(242, 242, 242,0.75);
+            transition: font-size 0.15s;
+        }
+
+        .contact-link > a:hover {
+            font-size: 1.15em;
+            color: rgba(242, 242, 242,0.95);
+        }
+
+        .project-details {
+            margin-left: 10px;
+        }
+
+        .project-tools, .skills-acquired {
+            font-size: small;
+        } 
+
+        .project-name, .institution-name {
+            color: rgba(242, 242, 242,0.95);
+        }
+
+        #projects-container {
+            /* border: 1px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 5px;
+        }
+
+        #contacts {
+            margin-top: 40px;
+        }
+
+        #left-block {
+            margin: 5% 0 5% 5%;
+            /* border: 1px solid red; */
+            padding-left: 10%;
+            width: 50%;
+        }
+
+        
+
+        #right-block {
+            padding: 20px 50px;
+            margin: 5% 5% 5% 0;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(19, 25, 60, 1) rgba(242, 242, 242,0.75);
+            /* border: 1px solid red; */
+            width: 60%; 
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            scroll-behavior: smooth;
+            
+        }
+
+        #right-block > section {
+            flex: 1;
+        }
+
+        #nav-links {
+            font-size: 1em;
+            list-style: none;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #name-tag {
+            font-size: 3.5em;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        #job-status {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        #job-description {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            width: 20em;
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+            color: rgba(242, 242, 242,0.8);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: row;
+            padding: 0 auto;
+            color: rgba(242, 242, 242,0.95);
+            font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+            background-color: rgba(19, 25, 60, 1);
+            height: 100vh;
+            scroll-behavior: smooth;
+        }
