@@ -55,7 +55,7 @@
         }
 
         .project-image {
-            border: 1px solid red;
+            /* border: 1px solid red; */
             width: 6em;
             border-radius: 8px;
         }
@@ -66,12 +66,61 @@
             transition: font-size 0.15s;
         }
 
+        .certificate-img {
+            width: 100%;
+            height: auto;
+        }
+
+        .skills-list {
+            display: none; /* Hide the skills list by default */
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .skills-list > li {
+            margin: 3px;
+            margin-bottom: 1px;
+        }
+
+        .skills-trigger {
+            cursor: pointer;
+        }
+
+        .certificates {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .certificate-container > a {
+            text-align: center;
+            text-decoration: none;
+            color: rgba(242, 242, 242,0.75);
+            margin-top: 5px;
+            font-size: smaller;
+        }
+
+        .certificate-container:hover {
+            text-decoration: underline;
+        }
+
+        .certificate-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+            width: 20%;
+            margin: 20px;
+            /* border: 1px solid red; */
+        }
+
         .contact-link > a:hover {
             font-size: 1.15em;
             color: rgba(242, 242, 242,0.95);
         }
 
-        .project-details {
+        .project-details, #skills-container {
             margin-left: 10px;
         }
 
@@ -81,6 +130,14 @@
 
         .project-name, .institution-name {
             color: rgba(242, 242, 242,0.95);
+        }
+
+        .project-name {
+            text-decoration: none;
+        }
+
+        .project-name:hover {
+            text-decoration: underline;
         }
 
         #projects-container {
